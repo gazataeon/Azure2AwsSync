@@ -13,6 +13,7 @@ docker run --env AZ_SP_PASS="password123" \
 --env AWS_ACCESS_KEY_ID="THISTOOISNOTREAL" \
 --env AWS_SECRET_ACCESS_KEY="ZJKHDdddUWHD+DSDWDDdd" \
 --env S3_BUCKET="mys3bucketname"
+--env AZ_CONTAINER="backups"
 gazataeon/azuretoawssync:latest
 
 ```
